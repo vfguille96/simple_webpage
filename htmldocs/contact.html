@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link href="../css/style.css" rel="stylesheet"/>
+    <title>Automobile - Contact</title>
 </head>
 <body>
-
+<ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="history.html">History</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+</ul>
+<div class="container">
+    <img class="mclata2" src="../imgs/p1about.png" alt="McLaren P1">
+</div>
+<div class="container">
+    <form method="post">
+        <label for="name">Name & Surname:</label>
+        <input id="name" type="text" name="name" placeholder="Name Surname" required="required" />
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" placeholder="example@email.com" required="required" />
+        <label for="message">Message:</label>
+        <textarea id="message" name="mensaje" placeholder="Message" required="required" rows="5"></textarea>
+        <input id="submit" type="submit" name="submit" value="Send" />
+    </form>
+        </div>
 </body>
 </html>

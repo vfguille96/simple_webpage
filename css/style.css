@@ -67,3 +67,42 @@ li a:hover {
 .active {
     background-color: #FF7B08;
 }
+
+/*****/
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+.formulario {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    font-family:Arial;
+}
+form {
+    margin:0 auto;
+    width:400px;
+}
+
+input, textarea {
+    width:380px;
+    height:27px;
+    border:2px solid;
+    padding:10px;
+    margin-top:5px;
+    font-size:17px;
+}
+
+textarea {
+    height:150px;
+}
+
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
